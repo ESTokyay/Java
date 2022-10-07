@@ -46,7 +46,7 @@ public class Employee
   public float reiseSalary(){
     int simdikiYil=2021;
     int calismaYili=simdikiYil - this.hireYear;
-    float vergibonusMaas=(this.Salary-this.Tax()+this.bonus());
+    float vergibonusMaas=(this.Salary-this.Tax()+this.bonus());  //nasıl bir hesap olduğunu belirtilmediği için bu şekilde düşünüldü.
     
     if(calismaYili<10){
       return vergibonusMaas*0.05f;
