@@ -2,8 +2,8 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-      Employee irem=new Employee("Sinan",13000,60,2020);
-      irem.toString();
+      Employee emp=new Employee("Sinan",15000,60,2020);
+      emp.toString();
   }
 }
 
